@@ -75,7 +75,7 @@ bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git branch
 ```java
      public class Ejercicio2 {
      public static void main(String[] args) {
-         System.out.println("Ejercicio 1 realizado.");
+         System.out.println("Ejercicio 2 realizado.");
      }
  }    
 ```
@@ -113,5 +113,29 @@ bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git commit -m "Se han 
  2 files changed, 1 deletion(-)
  rename ejercicio1.java => Ejercicio1.java (100%)
  delete mode 160000 Ejercicios-git-branch-nuevo
+
+```
+
+# Ejercicio 3.
+
+## Crear una nueva rama llamada *Ejercicio3-branch* y comprobando que se encuentra en la nueva rama.
+
+```bash
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git checkout -b ejercicio3-branch
+Cambiado a nueva rama 'ejercicio3-branch'
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git branch
+  ejercicio1-branch
+  ejercicio2-branch
+* ejercicio3-branch
+  main
+```
+## Se crea un nuevo archivo ".java" con el nombre *ejercicio3.java*.
+
+```java
+public class Ejercicio3 {
+    public static void main(String[] args) {
+        System.out.println("Ejercicio 3 realizado.");
+    }
+}
 
 ```
