@@ -31,6 +31,12 @@ bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git branch
 ```
 
 ## Se realiza un commit de los cambios.
+```bash
+"Se crea rama, ejercicio java": mensaje subido.
+3de29e42f2dba93bc3559f6fc3ef5884f8716b48: numero del commit.
+```
+
+## Se vuelve a la rama "main" y se fusionan con "merge".
 
 
 
