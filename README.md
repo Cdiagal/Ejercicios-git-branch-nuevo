@@ -139,3 +139,12 @@ public class Ejercicio3 {
 }
 
 ```
+## Se realiza un commit de los cambios.
+
+```bash
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git add .
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git commit -m "Se crea la rama ejercicio3-branch y se crea el archivo Ejercicio3.java"
+[ejercicio3-branch bdd5c69] Se crea la rama ejercicio3-branch y se crea el archivo Ejercicio3.java
+ 3 files changed, 32 insertions(+), 3 deletions(-)
+ create mode 100644 Ejercicio3.java
+ ```
