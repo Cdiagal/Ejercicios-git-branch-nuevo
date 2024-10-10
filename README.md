@@ -103,5 +103,15 @@ Fast-forward
  create mode 160000 Ejercicios-git-branch-nuevo
  create mode 100644 ejercicio1.java
 ```
+## Se elimina el archivo REAME.md sobrante y se hacen correcciones en el repositorio.
+```bash
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ rm -rf Ejercicios-git-branch-nuevo/
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ mv ejercicio1.java Ejercicio1.java 
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git add .
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git commit -m "Se han efectuado correcciones en el repositorio"
+[main 47532a3] Se han efectuado correcciones en el repositorio
+ 2 files changed, 1 deletion(-)
+ rename ejercicio1.java => Ejercicio1.java (100%)
+ delete mode 160000 Ejercicios-git-branch-nuevo
 
 ```
