@@ -148,3 +148,19 @@ bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git commit -m "Se crea
  3 files changed, 32 insertions(+), 3 deletions(-)
  create mode 100644 Ejercicio3.java
  ```
+
+## Se vuelve a la rama "main" y se fusiona con "merge".
+
+```bash
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/Ejercicios-git-branch-nuevo$ git checkout main
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+pro@jpexposito-VirtualBox:~/Repositorios GitHub/Ejercicios-git-branch-nuevo$ git merge ejercicio3-branch
+Actualizando 47532a3..62c9e8e
+Fast-forward
+ Ejercicio2.java |   2 +-
+ Ejercicio3.java |   5 +++++
+ README.md       | 112 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 3 files changed, 113 insertions(+), 6 deletions(-)
+ create mode 100644 Ejercicio3.java
+```
