@@ -1,6 +1,6 @@
 public class Ejercicio2 {
     public static void main(String[] args) {
-        System.out.println("Ejercicio 1 realizado.");
+        System.out.println("Ejercicio 2 realizado.");
     }
 }    
 
