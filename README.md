@@ -38,6 +38,22 @@ bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git branch
 
 ## Se vuelve a la rama "main" y se fusionan con "merge".
 
+```bash
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git checkout main
+warning: unable to rmdir 'Ejercicios-git-branch-nuevo': El directorio no está vacío
+Cambiado a rama 'main'
+Tu rama está actualizada con 'origin/main'.
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git merge ejercicio1-branch
+Actualizando 0e2cc46..b694466
+Fast-forward
+ Ejercicios-git-branch-nuevo |  1 +
+ README.md                   | 44 +++++++++++++++++++++++++++++++++++++++++++-
+ ejercicio1.java             |  5 +++++
+ 3 files changed, 49 insertions(+), 1 deletion(-)
+ create mode 160000 Ejercicios-git-branch-nuevo
+ create mode 100644 ejercicio1.java
+```
+
 
 
 
