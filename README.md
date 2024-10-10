@@ -22,4 +22,11 @@ bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git branch
 ```
 ## Se realiza un commit de los cambios.
 ```bash
+bae2@jpexposito-VirtualBox:~/Ejercicios-git-branch-nuevo$ git commit -m "Se genera el ejercicio2.java y se hace el commit"
+[ejercicio2-branch 1dba583] Se genera el ejercicio2.java y se hace el commit
+ 2 files changed, 18 insertions(+), 1 deletion(-)
+ create mode 100644 Ejercicio2.java
+```
+## Se vuelve a la rama "main" y se fusionan con "merge".
+
 ```
